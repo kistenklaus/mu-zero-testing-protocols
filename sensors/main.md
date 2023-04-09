@@ -10,12 +10,18 @@ structure that will be present in the pod.
 #### 2. Infrastructure and Setup
 
 ##### NTC-Sensor Setup
-![alt ntc-setup missing image](./ntc-setup.jpg)
+<html>
+<img src="./ntc-setup.jpg" alt= “missing image” width="50%"/>
+<br/>
+<html/>
 Testing of the NTC-Sensors is really easy we just create a voltage divider
 and read the values using a Arduino Uno.
 
 ##### OD-Mini Setup
-![alt odi-mini-setup missing image](./od-mini-setup.jpg)
+<html>
+<img src="./od-mini-setup.jpg" alt= “missing image” width="50%"/>
+<br/>
+<html/>
 The testing setup of the od-mini is a bit more compilcated. First it also 
 requires a aduino uno to read the voltage 
 values and perform a simple convertions 
@@ -26,7 +32,10 @@ this place but for testing purposes any power supply can be used.
 ##### Pneumatic-Pressure-Sensor Setup
 The Pneumatic Pressure sensor can be configured in different ways one option is
 to just use treat the sensor as a varyable resistor.
-![alt pressure-setup missing image](./pressure-setup.jpg)
+<html>
+<img src="./pressure-setup.jpg" alt= “missing image” width="50%"/>
+<br/>
+<html/>
 It is important to test different setups for the pressure sensor
 (see the sensor datasheet for more configuration options) 
 to find the one which is most suitable for our purposes.
@@ -43,7 +52,10 @@ plane, which it measures on (floor) should be correctly adjusted
 based on the last seasons configuration.
 
 ##### Fiducial Sensor Setup
-![alt fiducial-setup missing image](./fiducial-setup.jpg)
+<html>
+<img src="./fiducial-setup.jpg" alt= “missing image” width="50%"/>
+<br/>
+<html/>
 The Fiducial Sensor is a PNP Sensor, therefor the minimal 
 required setup is very easy and a microcontroller is not 
 even really required, but still helpful.
