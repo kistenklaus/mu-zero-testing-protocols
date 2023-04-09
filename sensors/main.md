@@ -1,6 +1,6 @@
 ### T-E - Sensors 
 
-Section 1. - 7. should be filled out **before** the test is performed!
+<!-- Section 1. - 7. should be filled out **before** the test is performed! -->
 
 #### 1. Aim/Objectives
 The testing is required to validate and configure the mapping of the 
@@ -88,6 +88,8 @@ testing are realtivly low.
 *Sensor values will be tested with a Arduino Uno first because configuring the 
 in ECUs is more complex.*
 
+<!--
+
 #### 6. Setpoints/Conditions
   * //Summary of variables within the test?//
   * //Load cases, pressure, voltage, current speed, etc.//
@@ -139,3 +141,4 @@ FIXME
 
 ----
   * FIXME
+  -->
