@@ -88,7 +88,6 @@ testing are realtivly low.
 *Sensor values will be tested with a Arduino Uno first because configuring the 
 in ECUs is more complex.*
 
-<!--
 
 #### 6. Setpoints/Conditions
   * //Summary of variables within the test?//
@@ -103,15 +102,16 @@ in ECUs is more complex.*
 
 
 #### 7. Expected Results
+The sensor are not damaged and the sensor readings
+can be mapped to reasonably linear values correctly 
+without much software overhead. 
+The Implementations for value convertions, that work for 
+the arduino uno also work for yourn own ECUs and 
+Teency.
+For some values speficic properties are tested which are mentioned in the 
+Infastructure and Setup section.
 
-  * //Which results can be expected?//
-  * //Possible way of documentation://
-    * //Text//
-    * //Graphics//
-
-
-----
-FIXME
+<!--
 
 #### 8. Measurement Data and Results
   * //Data and Processed results//
@@ -122,16 +122,10 @@ FIXME
   * //Stored in FMS: Link FIXME//
 
 
-----
-FIXME
-
 #### 9. Interpretation
   * //Comparison between expected results and measurement data//
   * //What do the test results mean for the subsystem and the overall system?//
 
-
-----
-  * FIXME
 
 #### 10. Conclusion
   * //Measures//
@@ -139,6 +133,4 @@ FIXME
   * //Test passed and integration can continue...//
 
 
-----
-  * FIXME
-  -->
+-->
